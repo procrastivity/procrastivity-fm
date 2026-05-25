@@ -28,15 +28,4 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     font-size: 1.125rem;
     line-height: 1.6;
   }
-  nav {
-    margin-top: 2rem;
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
-  }
-  nav a {
-    color: var(--color-text);
-    font-size: 1rem;
-    text-underline-offset: 3px;
-  }
 </style>
