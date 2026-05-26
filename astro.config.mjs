@@ -6,8 +6,8 @@ import { defineConfig } from 'astro/config';
 // follow the current Astro Cloudflare Workers adapter guide.
 
 export default defineConfig({
-  // Production URL. Required so RSS item links and `context.site` resolve to
-  // absolute URLs that work in feed readers.
-  site: 'https://procrastivity.fm',
+  build: { format: 'file' },
   output: 'static',
+  site: 'https://procrastivity.fm',
+  trailingSlash: 'never',
 });
