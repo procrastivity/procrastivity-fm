@@ -6,6 +6,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <main>
     <h1>procrastivity.fm</h1>
     <p>Creating accountability through visibility</p>
+    <nav>
+      <a href="/posts">Posts</a>
+      <a href="/about">About</a>
+    </nav>
   </main>
 </BaseLayout>
 
@@ -24,7 +28,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   }
   p {
     margin: 0;
-    color: #6b6b6b;
+    color: var(--color-muted);
     font-size: 1.125rem;
     line-height: 1.6;
   }
